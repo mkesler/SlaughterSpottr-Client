@@ -1,0 +1,91 @@
+.ui-title {
+  overflow: visible !important;
+}
+.ui-btn-inner {
+  border-top: none !important;
+}
+.ui-footer {
+  font-size: 12px;
+}
+/*.ui-icon {
+	margin-top:3px !important;
+}*/
+body {
+  text-align: center;
+  color: #333;
+}
+body .alert {
+  background-color: #FFF9CE;
+  height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  padding-top: 12px;
+}
+body .logo {
+  width: 85px;
+  padding: 5px 0;
+}
+body h1 {
+  font-family: Arial;
+  margin: 0 0 20px 0;
+  font-size: 24px;
+  color: #333;
+}
+body .breadcrumbs {
+  text-align: left;
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-family: Arial;
+}
+body .breadcrumbs a {
+  text-decoration: none;
+}
+body .home .intro {
+  font-style: italic;
+}
+body .home img {
+  width: 150px;
+  margin-top: -10px;
+}
+body .home a {
+  padding: 5px;
+}
+body .report .location {
+  display: inline-block;
+  width: 100%;
+  font-size: 15px;
+  font-weight: bold;
+}
+body .report .location a {
+  font-size: 13px;
+  text-decoration: none;
+}
+body .report .location p {
+  margin-top: 10px;
+}
+body .report .location img {
+  float: left;
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+body .report .location address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+body .report .reportBtn {
+  padding: 5px;
+  margin-top: 20px;
+}
+body .report .share {
+  text-align: center;
+}
+body .report .share img {
+  padding: 10px;
+  width: 40px;
+}
+body .map #map_canvas {
+  height: 100%;
+}

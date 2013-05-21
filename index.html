@@ -1,0 +1,97 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>SlaughterSpottr&trade;</title> 
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0">	
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+    <link rel="stylesheet" href="css/themes/captech.min.css" />
+	<link rel="stylesheet" href="css/a5.css" />
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA0O9VcNCYHZarvZm-Xq5NRHOEeYxNKkv0&sensor=true"></script>
+    <script src="js/a5.js"></script>
+</head> 
+<body> 
+
+
+	<!-- HOME PAGE -->
+	<div data-role="page" id="home">
+		<div data-role="header">	
+			<img class="logo" src="img/logo-captech.png"/>
+		</div><!-- /header -->
+
+		<div data-role="content">	
+			<div class="home">
+				<h1>SlaughterSpottr&trade;</h1>
+				<img src="img/slaughter.png"/>
+				<p class="intro"></p>
+				<div class="buttons">
+					<a href="#report" data-role="button" data-corners="false" data-theme="b">Report Sighting</a>
+					<a href="#map" data-role="button" data-corners="false" data-theme="b">Map Sightings</a>
+				</div>
+			</div>
+		</div><!-- /content -->
+
+		<div data-role="footer">
+			<p>&copy; 2012 CapTech Consulting</p>
+		</div><!-- /footer -->
+	</div><!-- /home page -->
+
+
+
+
+
+	<!-- REPORT PAGE -->
+	<div data-role="page" id="report">
+		<div class="alert" style="display:none;">Sighting Reported</div>
+		<div data-role="header">
+			<img class="logo" src="img/logo-captech.png"/>
+		</div><!-- /header -->
+
+		<div data-role="content">
+			<div class="report">
+				<div class="breadcrumbs">
+					<a href="#home"><<&nbsp;&nbsp;Back</a>
+				</div>
+				<h1>Report Sighting</h1>
+				<div class="location">
+					<img/>
+					<p>Your Location:</p>
+					<address></address>
+					<a class="refreshLnk" href="#">Refresh</a>
+				</div>
+				<a href="#" class="reportBtn" data-role="button" data-corners="false" data-theme="e">Send Report</a>
+				<!--<div class="share">
+					<img class="twitter" src="img/twitter.gif"/>
+					<img class="facebook" src="img/facebook.jpg"/>
+				</div> -->
+			</div>
+		</div><!-- /content -->
+		<div data-role="footer">
+			<p>&copy; 2012 CapTech Consulting</p>
+		</div><!-- /footer -->
+	</div><!-- /report page -->
+
+
+
+
+
+	<!-- MAP PAGE -->
+	<div data-role="page" id="map">
+		<div data-role="header">
+			<img class="logo" src="img/logo-captech.png"/>
+		</div><!-- /header -->
+
+		<div data-role="content">	
+			<div class="breadcrumbs">
+				<a href="#home"><<&nbsp;&nbsp;Back</a>
+			</div>
+			<h1>Slaughter Sightings</h1>
+			<div class="map">
+				<div id="map_canvas" style="width:290px; height:350px;">
+				</div>
+			</div>
+		</div><!-- /content -->
+	</div><!-- /map page -->
+</body>
+</html>
